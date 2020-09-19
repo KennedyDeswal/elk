@@ -34,7 +34,7 @@ services:
     environment:
       - output.elasticsearch.hosts=['http://IP:9200']
       - apm-server.host="0.0.0.0:8200"
-      - setup.kibana.host="15.207.222.110:5601"
+      - setup.kibana.host="IP:5601"
       - setup.template.enabled=true
       - logging.to_files=false
 volumes:
